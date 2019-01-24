@@ -1,0 +1,21 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = MyHelloWorld
+  FILE_GUID                      = dd598f17-7a62-40d7-bdc2-54cb59f1b94a
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  MyHelloWorld.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  MemoryAllocationLib
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = -c /Zi /nologo /W4 /WX /O1 /Ob2 /Oi /Os /GL /DUNICODE /X /Zc:wchar_t- /Gs8192 /EHs-c- /Ox /FAcs

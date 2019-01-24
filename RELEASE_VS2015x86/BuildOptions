@@ -1,0 +1,3 @@
+gCommandLineDefines: {'ARCH': 'X64', 'PKG_OUTPUT_DIR': 'C:\\Projetos\\caiuxo\\uefi_app'}
+BuildOptionPcd: []
+Active Platform: C:\Projetos\caiuxo\uefi_app\MyHelloWorld.dsc
