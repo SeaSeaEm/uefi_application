@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Uefi",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/**",
+                "C:/uefi_development_kit/UDK_DIR/MdePkg/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/ShellPkg/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/IntelFrameworkPkg/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/MdeModulePkg/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/StdLib/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/CryptoPkg/Include/**",
+                "C:/uefi_development_kit/UDK_DIR/MdePkg/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/**",
+                    "C:/uefi_development_kit/UDK_DIR/MdePkg/Include/**",
+                    "C:/uefi_development_kit/UDK_DIR/ShellPkg/Include/**",
+                    "C:/uefi_development_kit/UDK_DIR/IntelFrameworkPkg/Include/**",
+                    "C:/uefi_development_kit/UDK_DIR/MdeModulePkg/Include/**",
+                    "C:/uefi_development_kit/UDK_DIR/StdLib/Include/**",
+                    "C:/uefi_development_kit/UDK_DIR/CryptoPkg/Include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

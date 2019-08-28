@@ -1,0 +1,36 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/Build" : true,
+        "build_scripts" : true,
+        "**/.gitattributes" : true,
+        "zipFile.bat": true,
+        "**/*.xml" : true,
+        "**/*.bat" : true,
+        "*.pro" : true,
+        "**/*.cfg" : true,
+        "apply_code_style" : true,
+        "pre-commit" : true,
+        "**/*.cppcheck" : true,
+        "**/*.exe" : true,
+        "**/*.ilk" : true,
+        "**/*.pdb" : true,
+        "tags" : true,
+        "**/*.dll" : true,
+        "**/*.usln" : true,
+    },
+    "editor.rulers": [
+        80
+    ],
+    "files.associations": {
+        "**/*.h": "c",
+        "**/*.c": "c",
+        "**/Makefile": "makefile",
+        "xlocale": "c"
+    },
+
+    "debug.allowBreakpointsEverywhere": false,
+    "debug.inlineValues": true,
+    "editor.glyphMargin": true,
+    "python.linting.pylintEnabled": true
+}
